@@ -5,7 +5,7 @@ branches:
     - master
 cache: node_modules
 install:
-  - npm install --global yarn
+  - yarn install
 build: off
 build_script:
   - yarn build
