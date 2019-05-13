@@ -6,8 +6,6 @@ branches:
 cache: node_modules
 install:
   - yarn install
-  - yarn add --dev eslint-config-airbnb
-  - yarn add --dev eslint-plugin-import@latest
 build: off
 build_script:
   - yarn build

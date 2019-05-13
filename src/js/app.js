@@ -1,6 +1,4 @@
-console.log('it works!');
-
-export default function getSumm(value_1, value_2) {
-  let summ = value_1 + value_2;
+export default function getSumm(value1, value2) {
+  const summ = value1 + value2;
   return summ;
 }
